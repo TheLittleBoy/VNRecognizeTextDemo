@@ -93,12 +93,20 @@
 - (void)documentCameraViewControllerDidCancel:(VNDocumentCameraViewController *)controller
 {
     NSLog(@"Did Cancel");
+    
+    [controller dismissViewControllerAnimated:YES completion:^{
+        //
+    }];
 }
 
 // The delegate will receive this call when the user is unable to scan, with the following error.
 - (void)documentCameraViewController:(VNDocumentCameraViewController *)controller didFailWithError:(NSError *)error
 {
     NSLog(@"Fail With Error:%@",error);
+    
+    [controller dismissViewControllerAnimated:YES completion:^{
+        //
+    }];
 }
 
 #pragma mark - Navigation

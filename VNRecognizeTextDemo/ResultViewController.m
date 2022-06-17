@@ -9,7 +9,7 @@
 
 @interface ResultViewController ()
 
-@property(nonatomic, assign) NSString * transcript;
+@property(nonatomic, strong) NSString * transcript;
 
 @end
 
