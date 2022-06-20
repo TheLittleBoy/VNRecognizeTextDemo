@@ -1,6 +1,6 @@
 # VNRecognizeTextDemo
 
-iOS VisionKit VNDocumentCameraViewController VNRecognizeText Demo 
+iOS VisionKit VNDocumentCameraViewController VNRecognizeText Objective-C Demo 
 
 OCR 识别文本，iOS 14 以上系统支持识别中文
 
